@@ -1,0 +1,28 @@
+/*
+  	Name: Gulp Workflow
+  	Version: 1.0
+  	Author: Andrej Vajagoc
+  	Website: http://drejcreative.com
+    email: andrejv@drejcreative.com
+*/
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+
+$main-font: 'Bubbler One', sans-serif;
+
+$clr: #cccccc;
+
+.typescript {
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin: 7rem;
+  padding: 3rem 6rem;
+  background: rgba( $clr, .4 );
+  font-family: $main-font;
+  transition: all 0.2s ease;
+  &:hover {
+    font-size: 1.3rem;
+    border: 3px dotted rgba( $clr, .8 );
+  }
+}
